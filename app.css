@@ -1,0 +1,57 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-weight: 100;
+    color: brown;
+}
+
+#pagina-topo {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(mustang.html);
+    background-size: cover;
+}
+
+#pagina-topo,
+#menu-lateral {
+    max-width: 900px;
+    text-align: center;
+}
+
+#pagina-topo,
+#menu-lateral h2 {
+    font-size: 5em;
+    color: red;
+}
+
+#pagina-topo,
+#menu-lateral p {
+    font-size: 1em;
+    color: red;
+}
+
+#pagina-conteudo {
+    position: relative;
+    width: 100%;
+}
+
+.btn {
+    font-size: 1em;
+    color: red;
+    background: #ff0106;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
